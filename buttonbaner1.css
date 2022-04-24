@@ -1,0 +1,53 @@
+#Buton-Baner{
+    height: 40px;
+    width: 100%; 
+    margin: auto;   
+    
+
+}
+.button-hlavny{
+    margin-top: 95px;
+    width: 250px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 11px;
+    border-top: 3px solid rgb(123, 200, 145);
+    border-right: 3px solid rgb(123, 200, 145);
+    border-left: 4px solid rgb(17, 96, 39);
+    border-bottom: 4px solid rgb(17, 96, 39);
+    background-color: rgb(10, 229, 25);
+}
+.button-dnu{
+    width: 232px;
+    height: 45px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    border-radius: 6px;
+    background-color: #2997b0;
+    background-image: linear-gradient(45deg, rgb(29, 68, 126), rgb(64, 199, 206));
+    box-shadow: inset -2.2px 2.2px rgb(29, 68, 126), inset 2.1px -2.1px rgb(38, 143, 188);            
+}
+.button-dnu:hover{
+    background-image: linear-gradient(45deg, rgb(64, 199, 206), rgb(29, 68, 126));
+}
+.button-hlavny:hover .button-hlavny:focus {
+    background-color:rgb(14, 246, 80); 
+    box-shadow: 6.3px -6.3px 4px rgb(0 0 194), -6.3px 6.3px 8px rgb(0 0 194);        
+}
+#Ban1Link{
+    text-align: center;
+    margin-top: 3px;
+    color: whitesmoke;
+    font-family: 'Berkshire Swash', cursive; 
+    font-size: 34px;   
+}
+#Ban1Link:link{
+    color: rgb(233, 233, 243);
+    text-decoration: none;
+}
+#Ban1Link:hover {
+    color: rgb(10, 229, 25);
+    text-decoration: underline;
+}

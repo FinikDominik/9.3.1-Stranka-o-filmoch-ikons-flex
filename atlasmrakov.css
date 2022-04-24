@@ -1,0 +1,136 @@
+body, html{
+    margin: 0;
+    background-color: black;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(151, 234, 27);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(242, 245, 62);
+    text-decoration: underline;
+}    
+a:active {
+    color: rgb(64, 52, 201);
+    text-decoration: underline;
+}
+.her1{
+    color: blue;
+}
+.her2{
+    color: rgb(233, 97, 13);
+}
+.her3{
+    color: rgb(23, 193, 17);
+}
+.her4{
+    color: rgb(230, 219, 14);
+}
+.her5{
+    color: rgb(255, 0, 251);
+}
+.her6{
+    color: rgba(221, 162, 14, 0.509);
+}
+.her7{
+    color: rgb(226, 0, 0);
+}
+.her8{
+    color: blue;
+}
+.ikony{
+    color: #137085;
+}
+.obor{
+    color: orangered;
+}
+.mena_autorov{
+    color: rgba(23, 128, 32, 0.509);
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 800px; 
+    height: 0;
+}
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-color: rgb(83, 89, 248);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.headerbutton{
+    /* display: inline-flex; */
+    background-color: #2997b0;border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgb(238, 246, 240);
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Tapestry', cursive;
+    text-transform: uppercase;
+    margin: 4px 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.headerbutton:hover{
+    box-shadow: inset 0 0 8px #f9f8fc;
+    background-image: linear-gradient(0deg, rgb(64, 199, 206), rgb(29, 68, 126));
+} 
+.nazovfilmu{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Berkshire Swash', cursive; 
+    color: rgb(83, 89, 248);
+    text-shadow: 7px 6px #0c0d62b5
+}
+.TL{
+    font-size: 20px;
+}
+.PF{
+    text-justify: auto;
+    width: 1200px;
+    margin: auto;
+    color: white;
+}
+.Ofilme{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.tvorcovia{
+    display: inline-block;
+    color: white;
+    margin-bottom: 50px;
+}
+.herci{
+    display: inline-block;
+}
+.container{
+    width: 932px;
+    margin: auto;
+}
+.Iman::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f222";
+    font-weight: 900;
+    margin-right: 5px;
+}
+.Iwoman::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f221";
+    font-weight: 900;
+    margin-right: 5px;
+}

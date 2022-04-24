@@ -1,0 +1,199 @@
+    
+    * {
+        padding: 0;
+        margin: 0;
+        }
+    body{
+        background-color: black;
+    }
+    a:link{
+        color: white;
+        text-decoration: none;
+        }
+    a:visited {
+        color: rgb(151, 234, 27);
+        text-decoration: none;
+        }
+    a:hover {
+        color: rgb(242, 245, 62);
+        text-decoration: underline;
+        }    
+    a:active {
+        color: rgb(64, 52, 201);
+        text-decoration: underline;
+        }
+    header{
+        background-color: rgb(83, 89, 248);
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .headerbutton{
+        background-color: #2997b0;border: none;
+        border-radius: 15px;
+        box-shadow: 0 0 8px rgb(238, 246, 240);
+        padding: 15px 32px;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: 'Tapestry', cursive;
+        text-transform: uppercase;
+        margin: 4px 2px;
+        margin-left: 2px;
+        margin-right: 2px;
+        cursor: pointer;
+    }
+    .headerbutton:hover{
+        box-shadow: inset 0 0 8px #f9f8fc;
+        background-image: linear-gradient(0deg, rgb(64, 199, 206), rgb(29, 68, 126));
+    } 
+    h1, p{
+        margin-left: 7px;
+        color: white;
+    }
+    .VP::first-letter{
+        font-size: 30px;
+    }
+    .baner{
+        background-image: url(oblachnyy-atlas-cloud-atlas-2423.jpg);
+        width: 100%;
+        height: 800px;
+        margin: 0%;
+        background-color: #464646;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    .nadpisbaner{
+        color: rgb(83, 89, 248);
+        font-size: 100px;
+        font-variant: small-caps;
+        font-family: 'Berkshire Swash', cursive; 
+        text-align: center;
+        margin: 0%;
+        padding-bottom: 53px;
+        text-shadow: 7px 6px #0c0d62b5
+        
+    }
+    .banertext{
+        font-family: 'Berkshire Swash', cursive; 
+        width: 1000px;
+        text-align: justify;
+        line-height: 35px;
+        color: rgb(251, 251, 251);
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto; 
+        background: rgb(17, 15, 15); 
+        background: rgba(26, 23, 23, 0.5);
+    }
+    .banertextocenenia{
+        font-family: 'Berkshire Swash', cursive; 
+        width: 330px;
+        font-size: 20px;
+        color: white;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto; 
+        background: rgb(17, 15, 15); 
+        background: rgba(26, 23, 23, 0.5);
+    }
+    #Tomhenkscitat{
+        font-family: 'Berkshire Swash', cursive; 
+        width: 670px;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        margin-top: 53px;
+        margin-left: auto;
+        margin-right: auto; 
+        background: rgb(17, 15, 15); 
+        background: rgba(26, 23, 23, 0.5);
+    }
+    #banertextheader{
+        text-align: center;
+    }
+    .baner2{
+        background-image: url(https://www.themoviedb.org/t/p/original/9jJpYhjZ4DxkeTkQIVEXwg0fEpt.jpg);
+        width: 100%;
+        height: 800px;
+        margin: 0%;
+        background-color: #464646;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .baner3{
+        background-image: url(https://m.media-amazon.com/images/M/MV5BNWE4NjZjMTgtM2JkMC00NWMzLWExMWMtMDEwMDAyMTIwYTE4XkEyXkFqcGdeQXVyNjUzNDQxOTc@._V1_.jpg);
+        width: 100%;
+        height: 1000px;
+        margin: 0%;
+        background-color: #464646;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    article > h1{
+        text-align: center;
+    }
+    article > p{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    #Buton-Baner{
+        height: 40px;
+        width: 100%; 
+        margin: auto;
+    }
+    .button-hlavny{
+        margin-top: 95px;
+        width: 250px;
+        height: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 11px;
+        border-top: 3px solid rgb(123, 200, 145);
+        border-right: 3px solid rgb(123, 200, 145);
+        border-left: 4px solid rgb(17, 96, 39);
+        border-bottom: 4px solid rgb(17, 96, 39);
+        background-color: rgb(10, 229, 25);
+    }
+    .button-dnu{
+        width: 232px;
+        height: 45px;
+        position: relative;
+        left: 22px;
+        top: 5px;
+        border-radius: 6px;
+        background-color: #2997b0;
+        background-image: linear-gradient(45deg, rgb(29, 68, 126), rgb(64, 199, 206));
+        box-shadow: inset -2.2px 2.2px rgb(29, 68, 126), inset 2.1px -2.1px rgb(38, 143, 188);            
+    }
+    .button-dnu:hover{
+        background-image: linear-gradient(45deg, rgb(64, 199, 206), rgb(29, 68, 126));
+    }
+    .button-hlavny:hover, .button-hlavny:focus {
+        background-color:rgb(14, 246, 80); 
+        box-shadow: 6.3px -6.3px 5px rgb(0 0 194), -6.3px 6.3px 5px rgb(0 0 194);        
+    }
+    #Ban1Link{
+        display: block;
+        text-align: center;
+        margin-top: 3px;
+        color: whitesmoke;
+        font-family: 'Berkshire Swash', cursive; 
+        font-size: 34px;
+        /* margin-left: 31px;     */
+    }
+    #Ban1Link:link{
+        color: rgb(233, 233, 243);
+        text-decoration: none;
+    }
+    #Ban1Link:hover {
+        color: rgb(10, 229, 25);
+        text-decoration: underline;
+    }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reviewform</title>
+    <link rel="stylesheet" href="reviewform.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <a class="headerbutton" href="index.html">Domov</a>
+    </header>
+    
+    <div class="container">
+        <form>
+
+            <h1>Pridať recenziu</h1>
+            
+            <label for="date">Dátum zhliadnutia filmu</label>
+                
+            <input type="date" name="date" id="date">
+                <div class="povinne">
+                    <input class="fugafilm" placeholder="★Názov filmu" type="text" name="nazov_filmu" required>
+                </div>
+            <label for="Zanerfilmu">Žáner filmu:</label>
+            <select name="žáner" id="Zanerfilmu" form="">
+                <option value="Akčný">Akčný</option>
+                <option value="Dobrodružný">Krimi</option>
+                <option value="Krimi">Detektívny</option>
+                <option value="Dokumentárny">Dokumentárny</option>
+                <option value="Drama">Drama</option>
+                <option value="Fantasy">Fantasy</option>
+                <option value="Sci-fy">Sci-fy</option>
+                <option value="Horor">Horor</option>
+                <option value="Komédia">Komédia</option>
+            </select>
+
+            <div> 
+                <label for="hodnotenie">Číselné hodnotenie v percentách</label>
+                <input class="rangebar" type="range" name="slider" min="0" max="100" value="50" step="10" id="hodnotenie">
+            </div> 
+                
+            <input placeholder="Meno/prezívka" type="text" name="meno/nick" required>
+                
+            <div class="povinne">
+                <input placeholder="★email" type="email" name="email" required>
+            </div>
+
+            <textarea placeholder="komentár..." name="recenzia" id="" cols="30" rows="5"></textarea>
+            
+            <div class="povinne">
+            <span>★ - povinné</span>
+                <input class="button" type="submit" value="Odoslať">
+            </div>
+        
+        
+            <script>
+                document.querySelector('input[type=range]').addEventListener('input', function rangeChange() {
+                // trigger the CSS to update
+                this.setAttribute('value', this.value);
+                });
+            </script>
+        
+        </form>
+    </div>
+
+    <object data="logo.html"></object>
+    
+</body>
+</html>
