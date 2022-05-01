@@ -117,6 +117,7 @@ header{
 }
 .herci{
     display: inline-block;
+    color: white;
 }
 .container{
     width: 932px;
@@ -133,7 +134,4 @@ header{
     content: "\f221";
     font-weight: 900;
     margin-right: 5px;
-}
-.TL herci h2 {
-    color: white;
 }
